@@ -91,6 +91,13 @@ app.post("/api/chat", async (req: Request, res: Response) => {
   }
 });
 
+app.get("/", (req, res) => {
+
+    res.json({
+        message: "Server is Alive nd Well!"
+    })
+})
+
 // Start the server
 app.listen(3000, () => {
   console.log(`Server is running on http://localhost:3000`);
