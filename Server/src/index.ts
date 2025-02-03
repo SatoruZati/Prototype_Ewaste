@@ -49,7 +49,7 @@ async function assessProduct(brand: string, modelName: string, description: stri
       Provide three responses:
       1. **Repair**: Possible repairable issues and how to fix them.
       2. **Recycle**: Responsible recycling methods.
-      3. **Reuse**: Creative ways to reuse the product.
+      3. **Reuse**: Creative and innovative ways to reuse the product.
     `;
   
     try {
