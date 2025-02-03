@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:5173' // Adjust based on your frontend URL
+    origin: 'https://ewaste-brown.vercel.app' // Adjust based on your frontend URL
 }));
   
 

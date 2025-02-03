@@ -25,7 +25,7 @@ export default function App() {
 
     try {
       const payload = { brand, model, description };
-      const { data } = await axios.post<ChatResponseData>('http://localhost:3000/api/chat', payload);
+      const { data } = await axios.post<ChatResponseData>('https://ewaste-server.vercel.app/api/chat', payload);
       setResponse(data.response);
     } catch (err) {
       setError('Failed to get response. Please try again.');
